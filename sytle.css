@@ -1,0 +1,288 @@
+@media(min-widhth: 430px 932px)
+{
+    .button-one{
+        display: none;
+    }
+    #content-p{
+        display: none;
+    }
+}
+/* registration for font link */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(image/background\ home.jpg);
+    background-repeat: no-repeat;
+    background-size: 1199px 600px;
+    background-color: rgba(0, 0, 255, 0.028);
+}
+a{
+    margin: 24px;
+    color: white;
+    text-decoration: dotted;
+}
+#RESTORAN{
+    margin: 9px;
+    font-size: 29px;
+}
+#navbar{
+    position: fixed;
+    font-size: 17px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+color: white;
+height: 64px; 
+width: 100%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius:  0px;
+}
+#navbar{
+   
+}
+.button-one{
+    background-color: rgb(255, 166, 1);
+    color: rgb(255, 255, 255);
+    padding: 13px 28px;
+    font-size: 18px;
+  display: inline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    cursor: grab;
+    border-radius: 10px;
+}
+#content-h1{
+
+    margin-top: 0px;
+    color: white;
+    font-size: 74px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+#content-p{
+    color: white;
+    font-size: 20px;
+    padding-top: 34px;
+    display: inline;
+    
+}
+#content{
+    text-shadow: 4px 4px 5px #FF0000;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 90px;
+}
+div.shahrukh{ 
+    animation: backInUp;
+    animation-duration: 9s;
+    
+    
+    transition-duration: 3ms;
+    cursor:pointer;
+width: 330px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+text-align: center;
+padding: 29px;
+font-size: 25px;
+font-weight: bolder;
+font-family: monospace;
+}
+
+div.container {
+    transition-duration: 3ms;
+    cursor: pointer;
+padding: 10px;    
+}
+#button-three{
+    background-color: rgb(255, 166, 1);
+    color: rgb(255, 255, 255);
+    padding: 13px 28px;
+    font-size: 40px;
+  display: inline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    cursor: grab;
+    border-radius: 10px;  
+    width: 450px;
+    height: 70px; 
+}
+.size-input{
+    width: 240px;
+    height: 30px;
+}
+legend{
+    font-size: 30px;
+}
+
+#size-input{
+    
+    width: 140px;
+    height: 30px;
+}
+legend{
+    font-family: monospace;
+   
+}
+.product-p{
+    width: 230px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    padding: 30px;
+    text-align:center;
+    font-size: 15px;
+font-weight: bolder;
+font-family: monospace;
+} 
+     
+}
+div.product-container{
+    padding: 20px;
+    
+    animation: backInUp;
+    animation-duration: 9s;
+    
+    
+}
+.product{
+    width: 80px;
+    height: 35px;
+    background-color: yellow;
+    cursor: pointer;
+    
+}
+
+footer {
+    background-color: #0F172B ;
+    color: #fff;
+    padding: 20px;
+    /* text-align: center; */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+footer h2{
+        color:#FEA116;
+        margin:20px;
+}
+.nav-shortcuts{
+line-height:28px;
+margin: 28px;
+}
+.nav-shortcuts-2{
+line-height:28px;
+margin: 28px;
+top:-25px ;
+position: relative;
+}
+.nav-shortcuts-3{
+line-height:28px;
+margin: 28px;
+top:-12px ;
+position: relative;
+}
+.nav-shortcuts-4{
+line-height:28px;
+margin: 28px;
+top:-37px ;
+position: relative;
+}
+.nav-shortcuts-5{
+line-height:28px;
+margin: 63px;
+top:-35px ;
+display:flex; 
+position:relative;
+}
+.nav-shortcuts-5-div-2{
+display: flex;
+margin: 5px;
+right: -500px;
+position: relative;
+text-decoration: none;
+}
+.nav-shortcuts-5-div-1{
+/* display: flex; */
+margin: 5px;
+/* right: -500px; */
+position: relative;
+text-decoration: none;
+}
+footer > table{
+margin: 40px;;    
+}
+/* Smaller screens (tablets and mobile devices) */
+@media screen and (max-width: 430px) {
+    header {
+      padding: 3em;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }
+  
+    nav {
+      padding: 1em;
+      text-align: center;
+    }
+  
+    nav a {
+      padding: 0em;
+      line-height: 30px;
+    }
+  
+    .dropdown-content {
+      width: 100%;
+    }
+  
+    .menu-items-navbar {
+      margin: 10px;
+    }
+  
+    .menu-item-text {
+      a {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 0;
+      }
+  
+      .price {
+        padding: 0;
+      }
+    }
+  
+    /* footer {
+      padding: 1em;
+    }
+  
+    footer a {
+      margin: 0 5px;
+    } */
+    footer {
+        padding: 6em;
+    }
+    footer > table {
+        display: block;
+        margin: 0 auto;
+    }
+
+    footer > table > tr > td {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    footer {
+        padding: 2em;
+      }
+    
+      footer a {
+        margin: 0 10px;
+      }
+    

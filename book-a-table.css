@@ -1,0 +1,43 @@
+body{
+    background-image: url(image/hotel\ table.jpg);
+    color: white;
+
+}
+#button-three{
+    background-color: rgb(255, 166, 1);
+    color: rgb(255, 255, 255);
+    padding: 13px 28px;
+    font-size: 40px;
+  display: inline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    cursor: grab;
+    border-radius: 10px;  
+    width: 450px;
+    height: 70px; 
+text-decoration: none;
+}
+.size-input{
+    width: 340px;
+    height: 50px;
+}
+legend{
+    font-size: 30px;
+}
+
+#size-input{
+    
+    width: 140px;
+    height: 30px;
+}
+legend{
+    font-family: monospace;
+   
+}
+fieldset{
+
+    
+    width: 900px;
+}
